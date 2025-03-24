@@ -29,7 +29,7 @@ namespace ChatMaui
         public GettingStartedViewModel()
         {
             this.messages = new ObservableCollection<object>();
-            this.currentUser = new Author() { Name = "Nancy"};
+            this.currentUser = new Author() { Name = "Nancy", Avatar = "nancy.png"};
             this.GenerateMessages();
         }
 
