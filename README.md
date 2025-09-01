@@ -76,7 +76,7 @@ public class GettingStartedViewModel : INotifyPropertyChanged
             set
             {
                 this.currentUser = value;
-                RaisePropertyChanged("CurrentUser");
+                RaisePropertyChanged(nameof(this.CurrentUser));
             }
         }
 
